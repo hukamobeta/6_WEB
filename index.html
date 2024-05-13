@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Arial', sans-serif; 
+        }
+        .main-table {
+            width: 60%;
+            margin: auto;
+            border: 1px solid #333; 
+            border-collapse: collapse;
+        }
+        .header, .footer, .content, .sidebar, .info {
+            width: 100%;
+            border: 1px solid #333; 
+            border-radius: 5px;
+            background-image: none; 
+            padding: 10px;
+        }
+        .header, .footer {
+            background-color: #1a1a1a;
+            color: #ffffff; 
+        }
+        .content {
+            background-color: #f0f0f0; 
+        }
+        .sidebar, .info {
+            background-color: #f0f0f0; 
+        }
+        .content-main {
+            width: 80%;
+        }
+        .menu-link span {
+            margin-left: 5px;
+        }
+        p {
+            text-indent: 20px;
+        }
+        a {
+            color: #0066cc; 
+            text-decoration: none; 
+        }
+        a:hover {
+            text-decoration: underline; 
+        }
+    </style>
+</head>
+<body>
+    <table class="main-table">
+        <tr>
+            <td>
+                <table class="header">
+                    <tr>
+                        <th>
+                            <h1>Тут могла быть ваша реклама</h1>
+                        </th>
+                    </tr>
+                </table>
+                <table class="content">
+                    <tr>
+                        <td class="content-main" rowspan="2">
+                            <h2>Что-то</h2>
+                            <p>Тут могла быть ваша реклама</p>
+                        </td>
+                        <td class="sidebar">
+                            <h3>Меню</h3>
+                            <p><a href=""><span>Страница</span></a></p>
+                            <p><a href=""><span>Страница 1</span></a></p>
+                            <p><a href=""><span>Страница 2</span></a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="info" align="center">
+                            <h3>Тык</h3>
+                            <p>Текст</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <table class="footer">
+                    <tr>
+                        <th>
+                            <h3>Подвал</h3>
+                        </th>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
